@@ -30,4 +30,4 @@ jobs:
           image-ref: pod-frontend:${{ github.run_number}}
 
       - name: Push Docker image to DockerHub
-        run: docker push pod-frontend:${{ github.run_number}}
+        run: docker push ${{ secrets.DOCKER_USERNAME }}/pod-frontend:${{ github.run_number}}
