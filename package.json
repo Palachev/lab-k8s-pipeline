@@ -16,6 +16,6 @@
   }
   ,
   "overrides": {
-    "undici": "6.27.0"
+    "undici": "7.28.0"
   }
 }
