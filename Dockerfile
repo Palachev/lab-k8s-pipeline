@@ -1,4 +1,4 @@
-FROM node:latest-alpine
+FROM node:alpine3.24
 
 RUN apk update && apk upgrade --no-cache && apk add --no-cache openssl
 
