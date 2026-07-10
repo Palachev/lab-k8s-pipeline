@@ -6,5 +6,12 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
+  },
+  "dependencies": {
+    "cross-spawn": "^7.0.5",
+    "glob": "^11.1.0",
+    "minimatch": "^10.2.1",
+    "sigstore": "^4.1.1",
+    "tar": "^7.5.4"
   }
 }
